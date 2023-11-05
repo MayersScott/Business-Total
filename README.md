@@ -38,11 +38,15 @@ Activate the virtual environment:
   On macOS and Linux:
     `source .venv/bin/activate`
 
-Install dependencies:
+Make migrations:
   `pip install -r requirements.txt`
 
 Run the development server:
-  `python manage.py runserver`
+  ```python
+    python manage.py makemigrations
+
+    python manage.py migrate
+  ```
 
 Open your browser and access the application at http://localhost:8000/
 

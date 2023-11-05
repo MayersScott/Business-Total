@@ -39,15 +39,15 @@ Activate the virtual environment:
     `source .venv/bin/activate`
 
 Make migrations:
-  `pip install -r requirements.txt`
-
-Run the development server:
   ```python
     python manage.py makemigrations
 
     python manage.py migrate
   ```
 
+Run the development server:
+  `python manage.py runserver`
+  
 Open your browser and access the application at http://localhost:8000/
 
 ## Usage

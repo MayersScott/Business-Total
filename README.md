@@ -50,6 +50,8 @@ Run the development server:
   
 Open your browser and access the application at http://localhost:8000/
 
+![photo](https://github.com/MayersScott/Business-Total/assets/148715834/7671ab5a-e012-428a-934a-013f7557a6ef)
+
 ## Usage
 Create a business profile and add your products.
 Edit and delete products as needed.
